@@ -35,7 +35,7 @@ export default function Page() {
 									</a>
 								</li>
 								<li>
-									<a href="#">MY STATS</a>
+									<a href="#">STATS</a>
 								</li>
 								<li>
 									<a href="#">MEMBERS</a>
