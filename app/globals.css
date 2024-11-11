@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: #2D7DFF;
 }
 
 @media (prefers-color-scheme: dark) {

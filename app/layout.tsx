@@ -8,11 +8,13 @@ import "./globals.css";
 //   variable: "--font-geist-sans",
 //   weight: "100 900",
 // });
+
 // const geistMono = localFont({
 //   src: "./fonts/GeistMonoVF.woff",
 //   variable: "--font-geist-mono",
 //   weight: "100 900",
 // });
+
 const poppins = Poppins({
     weight: ['400'],
     subsets: ['latin'],
@@ -37,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body className={`${poppins.variable} font-poppins antialiased`}>
+        <body className={`${poppins.variable} font-poppins antialiased`} id="body">
             {children}
         </body>
     </html>
